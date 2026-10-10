@@ -7,13 +7,15 @@
 ![Status](https://img.shields.io/badge/Status-Completado-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-> Análisis exploratorio del mercado laboral tecnológico en América Latina: sueldos, roles, tecnologías y modalidades de trabajo en 6 países (Argentina, Uruguay, Brasil, Colombia, Chile y México).
+> Proyecto demostrativo de análisis del mercado laboral tecnológico en seis países de América Latina, mediante un dataset sintético reproducible.
+
+> **Importante:** el script genera 1.200 registros sintéticos con supuestos definidos en el código. Las cifras y gráficos sirven para demostrar un flujo analítico; no son estimaciones representativas ni conclusiones basadas en microdatos reales de encuestas.
 
 ---
 
 ## 🎯 Objetivo
 
-Responder preguntas clave que tienen tanto **profesionales tech buscando trabajo** como **empresas contratando en LATAM**:
+Demostrar cómo estructurar y comunicar un análisis de preguntas de negocio, por ejemplo:
 
 - ¿En qué país se paga más a los profesionales tech?
 - ¿Qué tecnologías dominan el mercado laboral?
@@ -37,13 +39,9 @@ Todas las visualizaciones se exportan automáticamente a la carpeta `graficos/`.
 
 ---
 
-## 💡 Hallazgos Clave
+## 📊 Resultados ilustrativos del escenario simulado
 
-- 🇺🇾 **Uruguay y Chile** lideran los sueldos medianos en LATAM para roles tech
-- 🤖 **Data Scientist y DevOps** son los roles mejor pagados, con hasta **1.3x** sobre el promedio
-- 🐍 **Python y SQL** son las tecnologías más demandadas, presentes en más del 60% de los perfiles
-- 🏠 El trabajo **100% remoto** ya supera el 55% en todos los países analizados
-- 📉 La brecha salarial **Junior vs Senior** promedia **3.2x** en toda la región
+El script resume, a partir de la simulación y sus parámetros, el país con mayor sueldo mediano, el rol con mayor sueldo promedio, la tecnología más frecuente, la modalidad predominante y la brecha salarial Junior/Senior. Estos resultados cambian si se modifican los supuestos o la semilla aleatoria; **no deben citarse como estadísticas observadas del mercado laboral**.
 
 ---
 
@@ -96,7 +94,7 @@ Este proyecto utiliza **datos sintéticos** generados con `numpy.random`, calibr
 - Encuesta de Sueldos IT Argentina (OpenQube)
 - Informes salariales de la industria tech LATAM 2023–2024
 
-Los valores reflejan tendencias reales del mercado pero no constituyen datos reales de encuestas.
+Los parámetros se inspiraron en referencias públicas, pero los registros se generan artificialmente y no son una reproducción ni una validación de esas fuentes. Para convertir el proyecto en un estudio empírico, habría que sustituir el generador por microdatos con licencia y metodología documentadas, limpiar y validar la muestra, y reportar limitaciones y fecha de extracción.
 
 ---
 
