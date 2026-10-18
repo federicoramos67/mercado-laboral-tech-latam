@@ -37,6 +37,13 @@ Demostrar cómo estructurar y comunicar un análisis de preguntas de negocio, po
 
 Todas las visualizaciones se exportan automáticamente a la carpeta `graficos/`.
 
+<p align="center">
+  <img src="graficos/01_sueldos_por_pais.png" alt="Distribución de sueldos tech por país" width="49%">
+  <img src="graficos/02_sueldo_rol_experiencia.png" alt="Sueldo promedio por rol y experiencia" width="49%">
+  <img src="graficos/03_tecnologias_demandadas.png" alt="Top 10 tecnologías" width="49%">
+  <img src="graficos/05_crecimiento_salarial.png" alt="Crecimiento salarial según experiencia" width="49%">
+</p>
+
 ---
 
 ## 📊 Resultados ilustrativos del escenario simulado
